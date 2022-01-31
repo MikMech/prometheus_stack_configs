@@ -1,0 +1,16 @@
+- targets: 
+  - '192.168.1.58'
+  labels:
+    friendlyname: 'piDB'
+- targets:
+  - '192.168.1.32'
+  labels:
+    friendlyname: 'pihole1'
+- targets:
+  - '192.168.1.66'
+  labels:
+    friendlyname: 'ArgonpiWifi'
+- targets:
+  - '192.168.1.61'
+  labels:
+    friendlyname: 'LinuxServer'

@@ -1,0 +1,10 @@
+[Unit]
+Description=node_exporter background service
+
+[Service]
+User=pi
+ExecStart=/home/pi/monitoring/node_exporter/node_exporter-1.0.1.linux-armv7/node_exporter
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

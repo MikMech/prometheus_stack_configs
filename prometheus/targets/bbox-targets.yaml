@@ -1,0 +1,69 @@
+ - targets:
+   - 'http://192.168.1.17:8000'
+   labels:
+     friendlyname: 'pizerow0'
+  
+  - targets:
+   - 'http://192.168.1.32:80'
+   labels:
+     friendlyname: 'pihole1' 
+
+ - targets:
+   - 'http://192.168.1.36:8000'
+   labels:
+    friendlyname: 'ArgonPi'
+
+ - targets:
+   - 'http://192.168.1.39:8000'
+   labels:
+     friendlyname: 'pizeroNic0'
+
+ - targets:
+   - 'http://192.168.1.41:80'
+   labels:
+     friendlyname: 'pihole2gb'
+
+  - targets:
+   - 'http://192.168.1.42:8000'
+   labels:
+     friendlyname: 'pizeroNic1'
+ 
+ - targets:
+   - 'http://192.168.1.50:8000'
+   labels:
+     friendlyname: 'pi8gb'
+
+ - targets: 
+   - 'http://192.168.1.58:8000'
+   labels:
+     friendlyname: 'piDB'
+
+ - targets:
+   - 'http://192.168.1.61:9443'
+   labels:
+     friendlyname: 'LabPortainer'
+
+ - targets:
+   - 'http://192.168.1.71:80'
+   labels:
+     friendlyname: 'TrueNAS'
+
+ - targets:
+   - 'http://192.168.1.73:8123'
+   labels:
+     friendlyname: 'Home Assistant'
+
+ - targets:
+   - 'http://192.168.1.74:3000'
+   labels:
+     friendlyname: 'Grafana'
+
+ - targets:
+   - 'http://192.168.1.75:80'
+   labels:
+     friendlyname: 'Heimdall'
+
+ - targets:
+   - 'http://192.168.1.78:8091'
+   labels:
+     friendlyname: 'ZwaveJS2MQTT'

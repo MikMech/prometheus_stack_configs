@@ -1,0 +1,13 @@
+[Unit]
+Description=Job that runs the python SimpleHTTPServer daemon
+Documentation=man:SimpleHTTPServer(1)
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/Documents/http
+ExecStart=/usr/bin/python -m SimpleHTTPServer 8000
+
+
+[Install]
+WantedBy=multi-user.target

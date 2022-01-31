@@ -1,0 +1,13 @@
+[Unit]
+Description=Synergy Service
+
+[Service]
+User=pi
+ExecStart=/usr/bin/synergyc
+Restart=always
+RestartSec=2
+StartLimitBurst=5
+StartLimitIntervalSec=10
+
+[Install]
+WantedBy=multi-user.target
